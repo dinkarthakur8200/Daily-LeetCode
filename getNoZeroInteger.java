@@ -35,3 +35,26 @@ class Solution {
         System.out.println(ans2[0] + ", " + ans2[1]); // [2, 9] or any valid
     }
 }
+// ⚡ Algorithm Recap
+
+// Loop a from 1 to n-1.
+
+// Set b = n - a.
+
+// Check isNoZero(a) and isNoZero(b).
+
+// isNoZero() → check har digit using % 10.
+
+// Return [a, b] as soon as a valid pair mil jaye.
+
+// 📊 Complexity
+
+// Time Complexity: O(n * log(n))
+
+// Loop runs at most n times.
+
+// Each check takes O(log(n)) (digit count).
+
+// Space Complexity: O(1)
+
+// Only variables used, no extra memory.
